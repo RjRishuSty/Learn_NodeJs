@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js",
+    "startServer": "node http/index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/RjRishuSty/Learn_NodeJs.git"
   },
   "author": "Rishu Raj",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.4"
+  }
 }
