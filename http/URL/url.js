@@ -12,3 +12,17 @@
 
 
 // TODO: There is one Libary for url = >Libray name is (url) command to install => (npm i url)
+
+
+
+
+
+
+
+// TODO:  -------------------------------------------------- URL METHODS -----------------------------------------------------
+
+// (get) => get request form the server... means fetch.
+// (post) => When you want to send  data and store in database.
+// (Put) =>
+// (patch) => update
+// (delete) => delete

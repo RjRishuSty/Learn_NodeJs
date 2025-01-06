@@ -15,7 +15,7 @@ const myServer = http.createServer((req, res) => {
 
   const log = `${Date.now()}: ${req.url} New Record Received\n`;
   // TODO: url.parse => means url full information ex-> path,protocol, query etc
-  const myUrl = url.parse(req.url,true);
+  const myUrl = url.parse(req.url, true); //true -> means query of object data ha
   console.log(myUrl);
 
   fs.appendFile("./http/log.txt", log, (error, data) => {
