@@ -6,3 +6,6 @@
 
 // TODO: In Package.json file if you add any js file in script then run command is => npm run objectKey name (example= start)
 // TODO: ---Command  => npm init to install node
+
+
+// TODO: if you want to uninstall any package then => npm uninstall packagename;

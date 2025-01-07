@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "startServer": "node http/index.js"
+    "startServer": "node http/index.js",
+    "startExpressServer": "node express/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,6 @@
   "author": "Rishu Raj",
   "license": "ISC",
   "dependencies": {
-    "url": "^0.11.4"
+    "express": "^4.21.2"
   }
 }
